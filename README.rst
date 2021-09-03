@@ -1,0 +1,1 @@
+My dummy for creating new projects
