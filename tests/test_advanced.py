@@ -1,6 +1,5 @@
 import pytest
-
-from .context import src
+from tests import equals, src
 
 
 class TestFoo:
@@ -13,10 +12,6 @@ class TestFoo:
         result = src.func()
         expected = "bar"
         equals(result, expected)
-
-
-def equals(a, b):
-    assert a == b
 
 
 if __name__ == "__main__":

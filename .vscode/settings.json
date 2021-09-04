@@ -2,4 +2,5 @@
     "python.testing.pytestArgs": [
         "tests"
     ],
+    "python.pythonPath": "c:\\Software\\gitRepositories\\samplemod\\.venv\\Scripts\\python.exe",
 }
